@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- ################################################################### -->
+  <!-- 引用此css -->
+  <link rel="stylesheet" href="./svg-icons/css/all1.css" />
+  <!-- ################################################################### -->
+  <style>
+    body {
+      background: gray;
+      color: white;
+      box-sizing: border-box;
+    }
+
+    div {
+      background: rgb(24, 31, 41);
+      border: solid 1px rgb(192, 192, 192);
+      width: 100%;
+    }
+
+    .wrapper-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: stretch;
+      align-items: stretch;
+    }
+
+    .firstClass {
+      justify-self: stretch;
+      align-self: stretch;
+    }
+
+    .secondClass>div {
+      height: auto;
+      padding: 10px;
+      overflow: hidden;
+    }
+
+    .secondClass>div>i {
+      float: right;
+      margin-right: 20%;
+    }
+
+    .secondClass div div {
+      float: right;
+      margin-right: 20%;
+    }
+
+    .thirdClass>div {
+      height: 4vh;
+      width: 98%;
+      padding-left: 5px;
+      padding-top: 1vh;
+    }
+
+    .thirdClass>div>i {
+      display: block;
+      float: right;
+      margin-right: 50%;
+    }
+
+    .forthClass {
+      height: 100px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(75px, auto));
+      grid-gap: 2em;
+      border-bottom: 0;
+
+    }
+
+    /* ########################################### */
+    /* 指针背景框的CSS部分，拷贝走即可食用 */
+    /* ########################################## */
+
+    /* ########################################### */
+    /* 指针背景框的CSS部分 结束 */
+    /* ########################################## */
+  </style>
+</head>
+
+<body>
+  <!-- 这里以下的内容不要管 -->
+  <div class="wrapper-row">
+    <div>
+      <h2>说明</h2>
+    </div>
+    <div>
+      <h2>颜色</h2>
+    </div>
+    <div>
+      <h2>图标</h2>
+    </div>
+    <div>
+      <h2>外框</h2>
+    </div>
+  </div>
+  <div class="wrapper-row">
+    <!-- 咨询 -->
+    <div class="firstClass"></div>
+    <div class="secondClass">
+      <div>
+        <h1>图标颜色的配色类</h1>
+      </div>
+      <div><span class="color-pink">粉色 类名： color-pink</span> <i class="fas fa-road fa-2x color-pink"></i></div>
+      <div><span class="color-red">红色 类名： color-red</span> <i class="fas fa-road fa-2x color-red"></i></div>
+      <div><span class="color-red1">浅红色 类名： color-red1</span> <i class="fas fa-road fa-2x color-red1"></i></div>
+      <div><span class="color-purple">紫色 类名： color-purple</span> <i class="fas fa-road fa-2x color-purple"></i></div>
+      <div> <span class="color-purple1">浅紫色 类名： color-purple1</span> <i class="fas fa-road fa-2x color-purple1"></i>
+      </div>
+      <div><span class="color-yellow">黄色 类名： color-yellow</span> <i class="fas fa-road fa-2x color-yellow"></i></div>
+      <div><span class="color-blue">浅蓝色 类名： color-blue</span> <i class="fas fa-road fa-2x color-blue"></i></div>
+      <div><span class="color-blue1">深蓝色 类名： color-blue1</span> <i class="fas fa-road fa-2x color-blue1"></i></div>
+      <div><span class="color-green">绿色 类名： color-green</span> <i class="fas fa-road fa-2x color-green"></i></div>
+      <div><span class="color-rice">米色 类名： color-rice</span> <i class="fas fa-road fa-2x color-rice"></i></div>
+      <div><span class="color-orange">橙红色 类名： color-orange</span> <i class="fas fa-road fa-2x color-orange"></i></div>
+      <div><span class="color-orange1">橙色 类名： color-orange1</span> <i class="fas fa-road fa-2x color-orange1"></i></div>
+      <div>
+        <h1>打点背景框的配色类</h1>
+      </div>
+      <div><span class="bg-color-pink">粉色 类名： bg-color-pink</span>
+        <div class="cssframe bg-color-pink">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-red">红色 类名： bg-color-red</span>
+        <div class="cssframe bg-color-red">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-red1">浅红色 类名： bg-color-red1</span>
+        <div class="cssframe bg-color-red1">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-purple">紫色 类名： bg-color-purple</span>
+        <div class="cssframe bg-color-purple">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-purple1">浅紫色 类名： bg-color-purple1</span>
+        <div class="cssframe bg-color-purple1">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-yellow">黄色 类名： bg-color-yellow</span>
+        <div class="cssframe bg-color-yellow">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-blue">浅蓝色 类名： bg-color-blue</span>
+        <div class="cssframe bg-color-blue">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-blue1">深蓝色 类名： bg-color-blue1</span>
+        <div class="cssframe bg-color-blue1">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-green">绿色 类名： bg-color-green</span>
+        <div class="cssframe bg-color-green">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-rice">米色 类名： bg-color-rice</span>
+        <div class="cssframe bg-color-rice">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-orange">橙红色 类名： bg-color-orange</span>
+        <div class="cssframe bg-color-orange">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+      <div><span class="bg-color-orange1">橙色 类名： bg-color-orange1</span>
+        <div class="cssframe bg-color-orange1">
+
+          <i class="fas fa-handshake fa-2x"></i>
+
+        </div>
+      </div>
+    </div>
+    <!-- 这里以上的内容不要管 -->
+
+    <div class="thirdClass">
+      <!-- ################################################ -->
+      <!-- 每一个i标签内就是一个图标, 在"fa-2x"后增加颜色类即可 -->
+      <!-- ################################################ -->
+      <div> <i class="fas fa-road fa-2x "></i></div>
+      <div> <i class="fas fa-car-side fa-2x "></i></div>
+      <div> <i class="fas fa-home fa-2x "></i></div>
+      <div> <i class="fas fa-code-branch fa-2x "></i> </div>
+      <div> <i class="fas fa-envelope fa-2x "></i></div>
+      <div> <i class="fas fa-sms fa-2x "></i></div>
+      <div> <i class="fas fa-phone-slash fa-2x "></i> </div>
+      <div> <i class="fas fa-ellipsis-h fa-2x "></i></div>
+      <div> <i class="fas fa-car-crash fa-2x "></i></div>
+      <div><i class="fas fa-snowplow fa-2x "></i></div>
+      <div><i class="fas fa-traffic-light fa-2x "></i></div>
+      <div> <i class="fas fa-sort-amount-up-alt fa-2x "></i> </div>
+      <div><i class="fas fa-reply-all fa-2x "></i></div>
+      <div><i class="fas fa-car-crash fa-2x "></i></div>
+      <div><i class="fas fa-tools fa-2x "></i></div>
+      <div><i class="fas fa-shield-alt fa-2x "></i></div>
+      <div><i class="fas fa-cloud-sun fa-2x "></i></div>
+      <div> <i class="fas fa-ban fa-2x"></i></div>
+      <div> <i class="fas fa-hands-helping fa-2x"></i></div>
+      <div> <i class="fas fa-hard-hat fa-2x"></i></div>
+      <div> <i class="fas fa-brush fa-2x"></i></div>
+      <div> <i class="fas fa-broom fa-2x"></i></div>
+      <div> <i class="fas fa-snowplow fa-2x"></i></div>
+      <div> <i class="fas fa-water fa-2x"></i></div>
+      <div>雨 <i class="fas fa-cloud-rain fa-2x"></i></div>
+      <div>雪 <i class="fas fa-snowflake fa-2x"></i></div>
+      <div>雾 <i class="fas fa-smog fa-2x"></i></div>
+      <div>冰 <i class="fas fa-icicles fa-2x"></i></div>
+      <div>霾 <i class="fas fa-smog fa-2x"></i></div>
+      <div>风 <i class="fas fa-wind fa-2x"></i></div>
+      <div>高温 <i class="fas fa-temperature-high fa-2x"></i></div>
+      <div>低温 <i class="fas fa-temperature-low fa-2x"></i></div>
+      <div> <i class="fas fa-exclamation-circle fa-2x"></i></div>
+      <div> <i class="fas fa-hand-pointer fa-2x"></i></div>
+      <div> <i class="fas fa-hand-peace fa-2x"></i></div>
+      <div> <i class="fas fa-hand-rock fa-2x"></i></div>
+      <div> <i class="fas fa-car-alt fa-2x"></i></div>
+      <div> <i class="fas fa-key fa-2x"></i></div>
+      <div> <i class="fas fa-heart-broken fa-2x"></i></div>
+      <div> <i class="fas fa-heart fa-2x"></i></div>
+      <div> <i class="fas fa-shapes fa-2x"></i></div>
+      <div> <i class="fas fa-city fa-2x"></i></div>
+      <div> <i class="fas fa-vector-square fa-2x"></i></div>
+      <div> <i class="fas fa-hotel fa-2x"></i></div>
+      <div> <i class="fas fa-vector-square fa-2x"></i></div>
+      <div> <i class="fas fa-hotel fa-2x"></i></div>
+      <div> <i class="fas fa-chart-pie fa-2x"></i></div>
+      <div> <i class="fas fa-headset fa-2x"></i></div>
+      <div> <i class="fas fa-building fa-2x"></i></div>
+      <div> <i class="fas fa-headset fa-2x"></i></div>
+      <div> <i class="fas fa-hammer fa-2x"></i></div>
+      <div> <i class="fas fa-hand-holding-usd fa-2x"></i></div>
+      <div> <i class="fas fa-truck-monster fa-2x"></i></div>
+      <div> <i class="fas fa-users-cog fa-2x"></i></div>
+      <div> <i class="fas fa-file-invoice-dollar fa-2x"></i></div>
+      <div> <i class="fas fa-hand-holding-heart fa-2x"></i></div>
+      <div> <i class="fas fa-tools fa-2x"></i></div>
+      <div> <i class="fas fa-seedling fa-2x"></i></div>
+      <div> <i class="fas fa-traffic-light fa-2x"></i></div>
+      <div> <i class="fas fa-headset fa-2x"></i></div>
+      <div> <i class="fas fa-hammer fa-2x"></i></div>
+      <div> <i class="fas fa-hand-holding-usd fa-2x"></i></div>
+      <div> <i class="fas fa-truck-monster fa-2x"></i></div>
+      <div> <i class="fas fa-users-cog fa-2x"></i></div>
+      <div> <i class="fas fa-file-invoice-dollar fa-2x"></i></div>
+      <div> <i class="fas fa-hand-holding-heart fa-2x"></i></div>
+      <div> <i class="fas fa-tools  fa-2x"></i></div>
+      <div> <i class="fas fa-sms fa-2x"></i></div>
+      <div> <i class="fas fa-traffic-light fa-2x"></i></div>
+      <div> <i class="fas fa-fax fa-2x"></i></div>
+      <div> <i class="fas fa-bullhorn fa-2x"></i></div>
+      <div> <i class="fas fa-crown fa-2x"></i></div>
+      <div> <i class="fas fa-file-alt fa-2x"></i></div>
+      <div> <i class="fas fa-quote-right fa-2x"></i></div>
+      <div> <i class="fas fa-star fa-2x"></i></div>
+      <div> <i class="fas fa-snowplow fa-2x"></i></div>
+      <div> <i class="fas fa-water fa-2x"></i></div>
+      <div> <i class="fas fa-clock fa-2x"></i></div>
+      <div> <i class="fas fa-search-dollar fa-2x"></i></div>
+      <div> <i class="fas fa-handshake fa-2x"></i></div>
+    </div>
+    <div class="forthClass">
+      <!-- ################################################ -->
+      <!-- 打点背景框  每一个div是一个背景框 复制使用 -->
+      <!-- ################################################ -->
+      <div class="cssframe bg-color-pink">
+
+        <i class="fas fa-handshake fa-2x"></i>
+
+
+      </div>
+
+      <div class="cssframe bg-color-yellow">
+
+        <i class="fas fa-snowflake fa-2x"></i>
+
+      </div>
+      <div class="cssframe bg-color-blue">
+
+        <i class="fas fa-globe fa-2x"></i>
+
+      </div>
+      <div class="cssframe bg-color-orange">
+
+        <i class="fas fa-snowflake fa-2x"></i>
+
+      </div>
+      <div class="cssframe bg-color-green">
+
+        <i class="fas fa-snowflake fa-2x"></i>
+
+      </div>
+      <div class="cssframe bg-color-purple1">
+
+        <i class="fas fa-snowflake fa-2x"></i>
+
+      </div>
+      <div class="cssframe bg-color-blue1">
+
+        <i class="fas fa-snowflake fa-2x"></i>
+
+      </div>
+      <div class="cssframe bg-color-purple">
+
+        <i class="fas fa-snowflake fa-2x"></i>
+
+      </div>
+      <div class="cssframe bg-color-orange1">
+
+        <i class="fas fa-file-invoice-dollar fa-2x"></i>
+
+      </div>
+      <div class="cssframe bg-color-rice lg">
+
+        <i class="fas fa-snowflake fa-3x"></i>
+
+      </div>
+
+
+      <div class="cssframe sm">
+
+        <i class="fas fa-snowflake fa-1x"></i>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
